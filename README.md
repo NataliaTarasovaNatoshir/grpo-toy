@@ -1,6 +1,6 @@
 # GRPO Toy Implementation
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NataliaTarasovaNatoshir/grpo-toy/main/GRPO_toy.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NataliaTarasovaNatoshir/grpo-toy/blob/main/GRPO_toy.ipynb)
 
 Hands-on GRPO (Group Relative Policy Optimization) implementation from scratch in PyTorch. Understand GRPO by training a 135M parameter model on simple arithmetic task using T4 GPU in Colab.
 
