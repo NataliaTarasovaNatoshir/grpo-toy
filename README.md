@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nataliatarasova/grpo-toy/blob/main/GRPO_toy.ipynb)
 
-Hands-on GRPO (Group Relative Policy Optimization) implementation from scratch in PyTorch. Learn GRPO by training a 135M parameter model on simple arithmetic task using T4 GPU in Colab.
+Hands-on GRPO (Group Relative Policy Optimization) implementation from scratch in PyTorch. Understand GRPO by training a 135M parameter model on simple arithmetic task using T4 GPU in Colab.
 
 ## What's GRPO?
 *GRPO was used by DeepSeek-Math to achieve state-of-the-art mathematical reasoning performance.*
