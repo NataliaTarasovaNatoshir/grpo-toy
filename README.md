@@ -12,7 +12,9 @@ GRPO replaces PPO's value function with group statistics. Instead of learning a 
 2. Uses group mean/std as baseline for advantage estimation
 3. Applies PPO clipping with KL regularization
 
-$$J_{GRPO}(\theta) = \frac{1}{G} \sum_{i=1}^G \frac{1}{|o_i|} \sum_{t=1}^{|o_i|} \left\{ \min\left[\frac{\pi_\theta(o_{i,t}|q, o_{i,<t})}{\pi_{\theta_{old}}(o_{i,t}|q, o_{i,<t})} \hat{A}_{i,t}, \text{clip}\left(\frac{\pi_\theta(o_{i,t}|q, o_{i,<t})}{\pi_{\theta_{old}}(o_{i,t}|q, o_{i,<t})}, 1-\varepsilon, 1+\varepsilon\right) \hat{A}_{i,t}\right] - \beta D_{KL}(\pi_\theta || \pi_{ref}) \right\}$$
+**GRPO objective function to be maximised**:
+
+![GRPO Formula](formula.png)
 
 
 ## What's in the Notebook
