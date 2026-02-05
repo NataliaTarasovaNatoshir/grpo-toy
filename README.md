@@ -29,6 +29,8 @@ GRPO replaces PPO's value function with group statistics. Instead of learning a 
 
 1. Click the Colab badge above
 2. Runtime → Change runtime type → T4 GPU
+   IMPORTANT: pick 2026.01 runtime version for stable results
+   <img src="runtime.png" alt="Runtime selection" width="50%">
 3. Run all cells (takes ~10 minutes)
 
 No external RL libraries - just `transformers` and `torch`
